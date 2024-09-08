@@ -11,11 +11,17 @@ body {
 
 .header,
 .footer,
+.section1,
+.section2 {
+    padding: 0px 150px; /* for page padding */
+}
+
+.header,
+.footer,
 .section1 {
     display: flex;
     align-items: center;
     background-color: #1F2937;
-    padding: 0px 150px; /* for page padding */
 }
 
 .header {
@@ -85,5 +91,42 @@ button {
     height: 250px;
     width: 300px;
     color: white;
+}
+
+.section2 {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.section2 h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.info-grid {
+    display: flex;
+    gap: 40px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.card img {
+    border: 2px solid blue;
+    border-radius: 20px;
+}
+
+.card p {
+    text-align: center;
 }
 
