@@ -13,7 +13,7 @@ body {
 .footer,
 .section1,
 .section2 {
-    padding: 0px 150px; /* for page padding */
+    padding: 15px 150px; /* for page padding */
 }
 
 .header,
@@ -129,4 +129,51 @@ button {
 .card p {
     text-align: center;
 }
+
+.section3 {
+    padding: 0px 200px;
+    background-color: #E5E7EB;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.quote-by {
+    font-size: 20px;
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+.section4 {
+    padding: 0px 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.cta {
+    padding: 30px 125px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    display: flex;
+    gap: 40px;
+    color: white;
+}
+
+.cta button {
+    border-color: white;
+}
+
+
 
